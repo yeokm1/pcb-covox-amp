@@ -36,11 +36,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "Covox with Amplifier"
+Date "2016-07-02"
+Rev "1"
 Comp ""
-Comment1 ""
+Comment1 "Designed by Yeo Kheng Meng"
 Comment2 ""
 Comment3 ""
 Comment4 ""

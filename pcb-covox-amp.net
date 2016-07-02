@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source E:/Dropbox/git-projects/pcb-covox-amp/pcb-covox-amp.sch)
-    (date "07/02/16 17:11:44")
+    (date "07/02/16 17:18:27")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -409,14 +409,14 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name shield) (type passive)))))
   (libraries
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
-    (library (logical mj-2135)
-      (uri libraries\mj-2135.lib))
     (library (logical pcb-covox-amp-rescue)
       (uri pcb-covox-amp-rescue.lib))
     (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib")))
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical mj-2135)
+      (uri libraries\mj-2135.lib)))
   (nets
     (net (code 1) (name "Net-(R10-Pad1)")
       (node (ref R17) (pin 1))
