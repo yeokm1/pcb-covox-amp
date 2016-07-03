@@ -30,6 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:mj-2135
+LIBS:mounthole
 LIBS:pcb-covox-amp-cache
 EELAYER 25 0
 EELAYER END
@@ -37,8 +38,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Covox with Amplifier"
-Date "2016-07-02"
-Rev "1"
+Date "2016-07-03"
+Rev "2"
 Comp ""
 Comment1 "Designed by Yeo Kheng Meng"
 Comment2 ""
@@ -975,4 +976,48 @@ Wire Wire Line
 	7300 1250 7300 950 
 Wire Wire Line
 	7300 950  7400 950 
+$Comp
+L MOUNTHOLE MH1
+U 1 1 5778DB2B
+P 5650 7000
+F 0 "MH1" H 5800 7050 50  0001 C CNN
+F 1 "MOUNTHOLE" H 5650 7150 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 5650 7000 50  0001 C CNN
+F 3 "" H 5650 7000 50  0000 C CNN
+	1    5650 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTHOLE MH3
+U 1 1 5778DB91
+P 6100 7000
+F 0 "MH3" H 6250 7050 50  0001 C CNN
+F 1 "MOUNTHOLE" H 6100 7150 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 6100 7000 50  0001 C CNN
+F 3 "" H 6100 7000 50  0000 C CNN
+	1    6100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTHOLE MH2
+U 1 1 5778DBF7
+P 5650 7250
+F 0 "MH2" H 5800 7300 50  0001 C CNN
+F 1 "MOUNTHOLE" H 5650 7400 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 5650 7250 50  0001 C CNN
+F 3 "" H 5650 7250 50  0000 C CNN
+	1    5650 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L MOUNTHOLE MH4
+U 1 1 5778DC5D
+P 6100 7250
+F 0 "MH4" H 6250 7300 50  0001 C CNN
+F 1 "MOUNTHOLE" H 6100 7400 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 6100 7250 50  0001 C CNN
+F 3 "" H 6100 7250 50  0000 C CNN
+	1    6100 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

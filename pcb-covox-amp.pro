@@ -1,4 +1,4 @@
-update=07/02/16 12:29:32
+update=07/03/16 15:40:26
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=libraries/mj-2135
+LibName32=libraries/mounthole

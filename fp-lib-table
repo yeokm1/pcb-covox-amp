@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name mj2135)(type KiCad)(uri "$(KIPRJMOD)\\libraries\\mj2135.pretty")(options "")(descr ""))
+  (lib (name hole)(type KiCad)(uri "$(KIPRJMOD)\\libraries\\hole.pretty")(options "")(descr ""))
 )

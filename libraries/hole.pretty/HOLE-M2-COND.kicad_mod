@@ -1,0 +1,15 @@
+(module HOLE-M2-COND (layer F.Cu) (tedit 553BC967)
+  (fp_text reference HOLE-M2 (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end -2.2 0) (layer F.CrtYd) (width 0.05))
+  (pad 1 smd circle (at 0 0) (size 4 4) (layers F.Cu F.Mask)
+    (clearance 0.3) (zone_connect 2))
+  (pad 1 smd circle (at 0 0) (size 4 4) (layers B.Cu B.Mask)
+    (clearance 0.3) (zone_connect 2))
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 2) (layers *.Cu)
+    (clearance 0.2) (zone_connect 2))
+)
