@@ -3,7 +3,7 @@
   (general
     (links 72)
     (no_connects 0)
-    (area 101.924999 85.924999 180.075001 142.075001)
+    (area 95.059999 73.674999 183.175 154.325001)
     (thickness 1.6)
     (drawings 12)
     (tracks 146)
@@ -72,8 +72,9 @@
     (grid_origin 100 142)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010f0_80000001)
+      (layerselection 0x010fc_80000001)
       (usegerberextensions true)
+      (usegerberattributes true)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -1482,7 +1483,7 @@
     )
   )
 
-  (module mj2135:mj-2135-MJ-2135 (layer F.Cu) (tedit 57831A26) (tstamp 57778878)
+  (module mj2135:mj-2135-MJ-2135 (layer F.Cu) (tedit 5783636B) (tstamp 57778878)
     (at 173.99 118.11 270)
     (path /577B6906)
     (attr virtual)
