@@ -264,11 +264,11 @@ X ~ 1 0 0 0 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# POT
+# POT-RESCUE-pcb-covox-amp
 #
-DEF POT RV 0 40 Y N 1 F N
+DEF POT-RESCUE-pcb-covox-amp RV 0 40 Y N 1 F N
 F0 "RV" 0 -100 50 H V C CNN
-F1 "POT" 0 0 50 H V C CNN
+F1 "POT-RESCUE-pcb-covox-amp" 0 0 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 DRAW

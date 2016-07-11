@@ -38,7 +38,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Covox with Amplifier"
-Date "2016-07-03"
+Date "2016-07-11"
 Rev "2"
 Comp ""
 Comment1 "Designed by Yeo Kheng Meng"
@@ -52,7 +52,7 @@ U 1 1 57761B75
 P 1000 1950
 F 0 "J1" H 1050 3300 50  0000 C CNN
 F 1 "DB25" H 950 600 50  0000 C CNN
-F 2 "Connect:DB25MC" H 1000 1950 50  0001 C CNN
+F 2 "db25:DB25MC" H 1000 1950 50  0001 C CNN
 F 3 "" H 1000 1950 50  0000 C CNN
 	1    1000 1950
 	-1   0    0    1   
@@ -392,7 +392,7 @@ F 3 "" H 7950 1850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-pcb-covox-amp RV1
 U 1 1 5777A309
 P 6850 5000
 F 0 "RV1" H 6850 4900 50  0000 C CNN
@@ -404,7 +404,7 @@ F 4 "Volume" H 6850 4800 60  0000 C CNN "Purpose"
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT RV2
+L POT-RESCUE-pcb-covox-amp RV2
 U 1 1 5777A420
 P 9050 5000
 F 0 "RV2" H 9050 4900 50  0000 C CNN
@@ -455,7 +455,7 @@ Input+
 Text GLabel 1450 5900 0    60   Input ~ 0
 Input+
 $Comp
-L POT RV3
+L POT-RESCUE-pcb-covox-amp RV3
 U 1 1 5778C8B1
 P 10450 5000
 F 0 "RV3" H 10450 4900 50  0000 C CNN
