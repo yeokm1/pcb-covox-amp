@@ -394,25 +394,25 @@ $EndComp
 $Comp
 L POT-RESCUE-pcb-covox-amp RV1
 U 1 1 5777A309
-P 6850 5000
-F 0 "RV1" H 6850 4900 50  0000 C CNN
-F 1 "10K" H 6850 5000 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps-RK163-single_15mm" H 6850 5000 50  0001 C CNN
-F 3 "" H 6850 5000 50  0000 C CNN
-F 4 "Volume" H 6850 4800 60  0000 C CNN "Purpose"
-	1    6850 5000
+P 6150 4950
+F 0 "RV1" H 6150 4850 50  0000 C CNN
+F 1 "10K" H 6150 4950 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps-RK163-single_15mm" H 6150 4950 50  0001 C CNN
+F 3 "" H 6150 4950 50  0000 C CNN
+F 4 "Volume" H 6150 4750 60  0000 C CNN "Purpose"
+	1    6150 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L POT-RESCUE-pcb-covox-amp RV2
 U 1 1 5777A420
-P 9050 5000
-F 0 "RV2" H 9050 4900 50  0000 C CNN
-F 1 "10K" H 9050 5000 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps-RK163-single_15mm" H 9050 5000 50  0001 C CNN
-F 3 "" H 9050 5000 50  0000 C CNN
-F 4 "Gain" H 9050 4800 60  0000 C CNN "Purpose"
-	1    9050 5000
+P 7850 4950
+F 0 "RV2" H 7850 4850 50  0000 C CNN
+F 1 "10K" H 7850 4950 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps-RK163-single_15mm" H 7850 4950 50  0001 C CNN
+F 3 "" H 7850 4950 50  0000 C CNN
+F 4 "Gain" H 7850 4750 60  0000 C CNN "Purpose"
+	1    7850 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -440,30 +440,30 @@ $EndComp
 $Comp
 L GND #PWR08
 U 1 1 57781DE3
-P 7200 5150
-F 0 "#PWR08" H 7200 4900 50  0001 C CNN
-F 1 "GND" H 7200 5000 50  0000 C CNN
-F 2 "" H 7200 5150 50  0000 C CNN
-F 3 "" H 7200 5150 50  0000 C CNN
-	1    7200 5150
+P 5750 5000
+F 0 "#PWR08" H 5750 4750 50  0001 C CNN
+F 1 "GND" H 5750 4850 50  0000 C CNN
+F 2 "" H 5750 5000 50  0000 C CNN
+F 3 "" H 5750 5000 50  0000 C CNN
+	1    5750 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 6250 5000 0    60   Input ~ 0
+Text GLabel 6500 4950 2    60   Input ~ 0
 Source-Audio
-Text GLabel 6850 4700 1    60   Input ~ 0
+Text GLabel 6150 4650 1    60   Input ~ 0
 Input+
 Text GLabel 1450 5900 0    60   Input ~ 0
 Input+
 $Comp
 L POT-RESCUE-pcb-covox-amp RV3
 U 1 1 5778C8B1
-P 10450 5000
-F 0 "RV3" H 10450 4900 50  0000 C CNN
-F 1 "10K" H 10450 5000 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Alps-RK163-single_15mm" H 10450 5000 50  0001 C CNN
-F 3 "" H 10450 5000 50  0000 C CNN
-F 4 "Bass" H 10450 4800 60  0000 C CNN "Purpose"
-	1    10450 5000
+P 9900 4950
+F 0 "RV3" H 9900 4850 50  0000 C CNN
+F 1 "10K" H 9900 4950 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Alps-RK163-single_15mm" H 9900 4950 50  0001 C CNN
+F 3 "" H 9900 4950 50  0000 C CNN
+F 4 "Bass" H 9900 4750 60  0000 C CNN "Purpose"
+	1    9900 4950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -779,13 +779,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 6300 2750 6850
 Wire Wire Line
-	7100 5000 7200 5000
-Wire Wire Line
-	7200 5000 7200 5150
-Wire Wire Line
-	6600 5000 6250 5000
-Wire Wire Line
-	6850 4850 6850 4700
+	6150 4800 6150 4650
 Wire Wire Line
 	1450 5900 2450 5900
 Wire Wire Line
@@ -841,47 +835,45 @@ Wire Wire Line
 Wire Wire Line
 	2950 6350 2950 6300
 Wire Wire Line
-	9050 4850 9050 4600
+	7850 4800 7850 4550
 $Comp
 L CP1 C10
 U 1 1 577AE6CB
-P 8500 5000
-F 0 "C10" V 8550 5050 50  0000 L CNN
-F 1 "10uF" V 8550 4750 50  0000 L CNN
-F 2 "Capacitors_SMD:c_elec_4x5.3" H 8500 5000 50  0001 C CNN
-F 3 "" H 8500 5000 50  0000 C CNN
-	1    8500 5000
-	0    1    1    0   
+P 8500 4950
+F 0 "C10" V 8550 5000 50  0000 L CNN
+F 1 "10uF" V 8550 4700 50  0000 L CNN
+F 2 "Capacitors_SMD:c_elec_4x5.3" H 8500 4950 50  0001 C CNN
+F 3 "" H 8500 4950 50  0000 C CNN
+	1    8500 4950
+	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8800 5000 8650 5000
-Text GLabel 9050 4600 1    60   Input ~ 0
+	8100 4950 8350 4950
+Text GLabel 7850 4550 1    60   Input ~ 0
 Gain1
-Text GLabel 8200 5000 0    60   Input ~ 0
+Text GLabel 8800 4950 2    60   Input ~ 0
 Gain8
 Wire Wire Line
-	8350 5000 8200 5000
+	8650 4950 8800 4950
 $Comp
 L C C11
 U 1 1 577B1E46
-P 10450 4450
-F 0 "C11" H 10475 4550 50  0000 L CNN
-F 1 "33000pF" H 10475 4350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10488 4300 50  0001 C CNN
-F 3 "" H 10450 4450 50  0000 C CNN
-	1    10450 4450
+P 9900 4400
+F 0 "C11" H 9925 4500 50  0000 L CNN
+F 1 "33000pF" H 9925 4300 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 9938 4250 50  0001 C CNN
+F 3 "" H 9900 4400 50  0000 C CNN
+	1    9900 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10450 4850 10450 4600
-Text GLabel 10450 4100 1    60   Input ~ 0
+	9900 4800 9900 4550
+Text GLabel 9900 4050 1    60   Input ~ 0
 Vout
 Wire Wire Line
-	10450 4300 10450 4100
-Text GLabel 10100 5000 0    60   Input ~ 0
+	9900 4250 9900 4050
+Text GLabel 10250 4950 2    60   Input ~ 0
 Gain1
-Wire Wire Line
-	10200 5000 10100 5000
 Text GLabel 9500 2650 0    60   Input ~ 0
 Amp-Audio
 $Comp
@@ -1020,4 +1012,12 @@ F 3 "" H 6100 7250 50  0000 C CNN
 	1    6100 7250
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6400 4950 6500 4950
+Wire Wire Line
+	5900 4950 5750 4950
+Wire Wire Line
+	5750 4950 5750 5000
+Wire Wire Line
+	10250 4950 10150 4950
 $EndSCHEMATC
