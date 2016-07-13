@@ -1,0 +1,44 @@
+Obtained from https://forum.kicad.info/t/creating-gerberfiles/1356/8
+
+[plots]
+plot format: gerber
+
+layers:
+F.Cu
+B.Cu
+B.SilkS
+F.SilkS
+B.Mask
+F.Mask
+Edge.Cuts
+B.Paste (for stencil)
+F.Paste (for stencil)
+
+options:
+Exclude PCB edge layer from other layers
+
+gerber options:
+Use Protel filename extensions
+Include extended attributes
+
+default line width (mm):
+0.1
+
+format:
+4.6 (mm)
+
+[drill file]
+drill units:
+Millimeters
+
+zeroes format:
+Decimal format
+
+drill map file format:
+Gerber
+
+drill file options:
+none (DESELECT merging of PTH and NPTH)
+
+drill origin:
+Absolute
