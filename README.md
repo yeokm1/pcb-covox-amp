@@ -3,7 +3,13 @@ A tiny sound card based on the Covox Speech Thing design which includes an LM386
 
 ##PCB Design software and addons used
 
-1. Kicad 4.0.2 but later versions should work
+1. Kicad 4.0.2 or later
+
+##Video
+
+[![](http://img.youtube.com/vi/iOxOxpSg3WE/0.jpg)](https://www.youtube.com/watch?v=iOxOxpSg3WE)
+
+Due to copyright problems in the music used, this video can only be viewed on a PC. It is blocked on mobile devices and other platforms.
 
 ##Images
 ![Screen](images/all.jpg)
