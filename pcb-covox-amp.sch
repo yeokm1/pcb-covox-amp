@@ -38,8 +38,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Covox with Amplifier"
-Date "2016-07-11"
-Rev "2"
+Date "2016-07-24"
+Rev "3"
 Comp ""
 Comment1 "Designed by Yeo Kheng Meng"
 Comment2 ""
@@ -60,12 +60,12 @@ $EndComp
 $Comp
 L GND #PWR01
 U 1 1 57761E43
-P 2100 2100
-F 0 "#PWR01" H 2100 1850 50  0001 C CNN
-F 1 "GND" H 2100 1950 50  0000 C CNN
-F 2 "" H 2100 2100 50  0000 C CNN
-F 3 "" H 2100 2100 50  0000 C CNN
-	1    2100 2100
+P 2100 3300
+F 0 "#PWR01" H 2100 3050 50  0001 C CNN
+F 1 "GND" H 2100 3150 50  0000 C CNN
+F 2 "" H 2100 3300 50  0000 C CNN
+F 3 "" H 2100 3300 50  0000 C CNN
+	1    2100 3300
 	1    0    0    -1  
 $EndComp
 Text GLabel 1600 2350 2    60   Output ~ 0
@@ -631,7 +631,7 @@ Gain8
 Wire Wire Line
 	1450 1850 2100 1850
 Wire Wire Line
-	2100 1850 2100 2100
+	2100 1650 2100 3300
 Wire Wire Line
 	1450 2350 1600 2350
 Wire Wire Line
@@ -1020,4 +1020,25 @@ Wire Wire Line
 	5750 4950 5750 5000
 Wire Wire Line
 	10250 4950 10150 4950
+Wire Wire Line
+	1450 1650 2100 1650
+Connection ~ 2100 1850
+Wire Wire Line
+	1450 2050 2100 2050
+Connection ~ 2100 2050
+Wire Wire Line
+	1450 2450 2100 2450
+Connection ~ 2100 2450
+Wire Wire Line
+	1450 2250 2100 2250
+Connection ~ 2100 2250
+Wire Wire Line
+	1450 2650 2100 2650
+Connection ~ 2100 2650
+Wire Wire Line
+	1450 2850 2100 2850
+Connection ~ 2100 2850
+Wire Wire Line
+	1450 3050 2100 3050
+Connection ~ 2100 3050
 $EndSCHEMATC
