@@ -14,6 +14,8 @@ Due to copyright problems in the music used, this video can only be viewed on a 
 ##Images
 ![Screen](images/all.jpg)
 
+The picture is of the Rev 2 version with the bug in the limited parallel port grounding. This has been corrected in the Rev 3 gerber but not fabricated.
+
 ##Schematic drawings
 
 ![Screen](images/board.png)
