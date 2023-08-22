@@ -5,13 +5,13 @@ A tiny sound card based on the Covox Speech Thing design which includes an LM386
 
 1. Kicad 4.0.2 or later
 
-##Video
+## Video
 
 [![](http://img.youtube.com/vi/iOxOxpSg3WE/0.jpg)](https://www.youtube.com/watch?v=iOxOxpSg3WE)
 
 Due to copyright problems in the music used, this video can only be viewed on a PC. It is blocked on mobile devices and other platforms.
 
-##Images
+## Images
 ![Screen](images/all.jpg)
 
 The picture is of the Rev 2 version with the bug in the limited parallel port grounding. This has been corrected in the Rev 3 gerber but not fabricated.
@@ -22,10 +22,14 @@ The picture is of the Rev 2 version with the bug in the limited parallel port gr
 
 ![Screen](images/schematic.png)
 
-##Parts required
+## Parts required
 Use Libreoffice to open [pcb-covox-amp-bom.ods](pcb-covox-amp-bom.ods)
 
-##References
+## Errata
+
+As reported in this [issue](https://github.com/yeokm1/pcb-covox-amp/issues/2), there is a mistake in components R2 and C6. As I'm not currently using this project, I'll not be correcting this error.
+
+## References
 1. [Hardware implementation references](https://blog.frantovo.cz/c/307/DAC%20%28zvukov%C3%A1%20karta%29%20pro%20LPT%20port%20a.k.a.%20Covox)
 2. [Design reference](http://kb.gr8bit.ru/KB0010/GR8BIT-KB0010-Adding-multimedia-capability-covox-device.html)
 3. [MJ-2135 package referenced from coqui-dip](https://github.com/open-eie/coqui-dip)
